@@ -1,0 +1,11 @@
+@import '../Global.scss';
+
+.container-projects {
+    @include size(100%, auto);
+    background: $color1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
