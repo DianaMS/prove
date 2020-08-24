@@ -1,0 +1,65 @@
+@import '../Global.scss';
+
+.containerItem{
+    @include size(350px, 400px);
+    background: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+    .image-content{
+        @include size(300px, auto);
+        // position: absolute;
+        // top: 100px;
+        z-index:1;
+        img{
+            @include size(300px, auto);
+            border-radius: 20px;
+
+        }
+    }
+
+    .description-content{
+       @include size(350px, auto);
+       background: cornflowerblue;
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+       position: relative;
+       top: -120px;
+       padding-top: 100px;
+       .general-description{
+           text-align: center;
+            .title{
+                margin-top: 30px;
+                @include font-Roboto(16px);
+            }
+            .description{
+                margin-top: 10px;
+                margin-bottom: 20px;
+                @include font-Roboto(12px);
+            }
+       }
+
+       .routes{
+            background: coral;
+            @include size(300px, auto);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 25px;
+
+            .button-left{
+                @include size(110px, 30px);
+                border: none;
+                cursor:pointer;
+            }
+            .button-right{
+                @include size(110px, 30px);
+                border: none;
+                cursor:pointer;
+            }
+       }
+    }
+}
