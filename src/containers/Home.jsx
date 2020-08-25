@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/styles/App.scss';
-import userCover from '../assets/static/diana.png';
 import '../assets/styles/components/Home.scss';
 
 const Home = () => (
@@ -12,7 +11,7 @@ const Home = () => (
       </div>
       <div className='sesgo-down' />
     </section>
-    <img src={userCover} alt='' className='background' />
+    <img src='https://user-images.githubusercontent.com/60928490/91218414-9e3ac000-e6de-11ea-95fe-84bd85a2e3b7.png' alt='' className='background' />
     <section className='container-description'>
       <section className='aboutme'>
         <div className='content'>
