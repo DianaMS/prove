@@ -1,0 +1,29 @@
+@import '../Global.scss';
+
+.container-skills {
+    @include size(100%, auto);
+    background: $color7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    .title {
+        @include font-Roboto(24px);
+        background-color: $color8;
+        padding: 5px 15px 5px 15px;
+        color: white;
+        
+    }
+
+    .items {
+        @include size(100%, auto);
+        // background: chocolate;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

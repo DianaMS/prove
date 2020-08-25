@@ -1,0 +1,16 @@
+@import '../Global.scss';
+
+.containerItem {
+    @include size(auto, auto);
+    margin: 30px;
+
+    .name-skill{
+        @include font-Roboto(14px);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border-bottom: solid 2px $color8;
+        
+
+    }
+}
