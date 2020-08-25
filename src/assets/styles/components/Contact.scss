@@ -1,0 +1,56 @@
+@import '../Global.scss';
+
+.container-contact{
+    @include size(100%, 100vh);
+    background: $color1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .image-contact{
+        @include size(150px, 150px);
+        background-image: url('https://user-images.githubusercontent.com/60928490/91122428-eff03580-e65f-11ea-9ea0-7e50059ce6cd.png');
+        background-size: cover;
+        border-radius: 150px;
+        position: absolute;
+        top: 120px;
+        box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    }
+    .description-contact{
+        @include size(300px, 300px);
+        background: $color7;
+        border-radius: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+
+
+        .text-contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @include font-Roboto(16px);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .social-contact{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            @include font-Roboto(28px);
+            margin-top: 10px;
+            
+            .react-font{
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 30px;
+            }
+        }
+        
+    }
+}
