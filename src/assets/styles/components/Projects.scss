@@ -2,7 +2,9 @@
 
 .container-projects {
     @include size(100%, auto);
-    background: $color1;
+    background-image: url('https://user-images.githubusercontent.com/60928490/91021669-aea54a80-e5b9-11ea-8c2c-51e065525861.png');
+    // background-image: url('https://user-images.githubusercontent.com/60928490/91062782-bd5c2380-e5f2-11ea-98bd-315f19daf89e.png');
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
