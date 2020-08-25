@@ -7,7 +7,7 @@ export default {
     'buttonright': 'DESPLIEGUE',
   },
   {
-    'gif': 'src/assets/static/cipher.gif',
+    'gif': 'https://user-images.githubusercontent.com/60928490/91121455-70f9fd80-e65d-11ea-9f96-ad6cd1f8de60.gif',
     'title': 'CIPHER',
     'description': 'Aquí va la descripción',
     'buttonleft': 'README',
