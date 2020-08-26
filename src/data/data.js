@@ -35,7 +35,7 @@ export default {
     'buttonright': 'DESPLIEGUE',
   },
   {
-    'gif': 'src/assets/static/burgerApi.gif',
+    'gif': 'https://user-images.githubusercontent.com/60928490/91254424-01047980-e728-11ea-98c1-256de36ea779.gif',
     'title': 'BURGER QUEEN API',
     'description': 'Aquí va la descripción',
     'buttonleft': 'README',
