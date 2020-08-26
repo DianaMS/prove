@@ -1,6 +1,6 @@
 export default {
   'projects': [{
-    'gif': 'src/assets/static/cardValidation.gif',
+    'gif': 'https://user-images.githubusercontent.com/60928490/91247481-fcd06000-e717-11ea-80a8-6f016910c61c.gif',
     'title': 'CARD VALIDATION',
     'description': 'Aquí va la descripción',
     'buttonleft': 'README',
@@ -14,21 +14,21 @@ export default {
     'buttonright': 'DESPLIEGUE',
   },
   {
-    'gif': 'src/assets/static/pokemonGo.gif',
+    'gif': 'https://user-images.githubusercontent.com/60928490/91248034-538a6980-e719-11ea-9390-9a146562308d.gif',
     'title': 'POKEMON GO',
     'description': 'Aquí va la descripción',
     'buttonleft': 'README',
     'buttonright': 'DESPLIEGUE',
   },
   {
-    'gif': 'src/assets/static/mdLinks.gif',
+    'gif': 'https://user-images.githubusercontent.com/60928490/91252336-08755400-e723-11ea-9529-db59cbe2089a.gif',
     'title': 'MD-LINKS',
     'description': 'Aquí va la descripción',
     'buttonleft': 'README',
     'buttonright': 'DESPLIEGUE',
   },
   {
-    'gif': 'src/assets/static/redSocial.gif',
+    'gif': 'https://user-images.githubusercontent.com/60928490/91250089-cdbced00-e71d-11ea-870f-c478bd357cc1.gif',
     'title': 'RED SOCIAL',
     'description': 'Aquí va la descripción',
     'buttonleft': 'README',

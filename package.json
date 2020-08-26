@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dianams.github.io/",
+  "homepage": "https://dianams.github.io/Diana-Portfolio/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "deploy": "gh-pages -d dist"
