@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from '../components/Layout';
 import Home from '../containers/Home';
 import Projects from '../containers/Projects';
@@ -8,16 +8,16 @@ import Contact from '../containers/Contact';
 import '../assets/styles/App.scss';
 
 const App = () => (
-  <BrowserRouter>
+  <Router>
     <Layout>
       <Switch>
         <Route path='/projects' component={Projects} />
         <Route path='/skills' component={Skills} />
         <Route path='/contact' component={Contact} />
-        <Route path='/' component={Home} />
+        <Route exact path='/' component={Home} />
       </Switch>
     </Layout>
-  </BrowserRouter>
+  </Router>
 
 );
 
