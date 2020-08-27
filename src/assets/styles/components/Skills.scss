@@ -19,7 +19,6 @@
 
     .items {
         @include size(100%, auto);
-        // background: chocolate;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

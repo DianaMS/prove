@@ -69,7 +69,6 @@
     .aboutme {
       width: 50%;
       height: 70%;
-      // backgrounrgb(39, 78, 80)lue;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -82,8 +81,7 @@
       .content{
         width: 80%;
         height: auto;
-        // background: chocolate;
-        text-align: center;
+         text-align: center;
        
         .hello{
           @include font-Roboto(35px);
@@ -97,11 +95,9 @@
     .gallery {
       width: 100%;
       height: 30%;
-      // background: $color1;
       background-image: url('https://user-images.githubusercontent.com/60928490/90859081-1c007380-e34d-11ea-8f43-beb767db13bd.JPG');
       background-size: cover;
-      // display: flex;
-      // align-items: center;
+
       @include mobile-screen() {
         margin-top: 45px;
        }
