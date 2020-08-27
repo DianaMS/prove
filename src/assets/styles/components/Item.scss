@@ -30,6 +30,9 @@
        top: -120px;
        padding-top: 100px;
        border: 2px solid $color4;
+       @include mobile-screen() {
+        @include size(320px, auto);
+       }
        .general-description{
            text-align: center;
             .title{
