@@ -15,6 +15,7 @@ const App = () => (
         <Route path='/skills' component={withRouter(Skills)} />
         <Route path='/contact' component={withRouter(Contact)} />
         <Route exact path='/' component={withRouter(Home)} />
+        <Route component={withRouter(Home)} />
       </Switch>
     </Layout>
   </Router>
